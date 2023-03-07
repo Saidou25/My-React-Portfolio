@@ -1,0 +1,34 @@
+ .header {
+    
+     color: black;
+     align-items: center;
+     justify-content: space-between;
+     /* background-color: rgb(245, 233, 214); */
+     height: 150px;
+ }
+
+ .nav-item {
+     color: black;    
+ }
+
+ h1 {
+     text-align: center;
+     margin-left: 20px;
+ }
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width: 390px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        color: black;      
+    }
+    .myname {
+        padding-top:10px;
+    }
+};

@@ -1,0 +1,81 @@
+.my-projects {
+    text-align: center;
+    /* margin-top: 50px; */
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    height: 590px;
+    margin-top: 50px;
+    /* border: solid; */
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.card:hover #text {
+    opacity: 1;
+    padding: 8px;
+
+}
+
+.card:hover img {
+    opacity: 0.2;
+    padding: 8px;
+
+}
+
+.card-img-overlay:hover {
+    background-color: rgba(227, 185, 88, 0.4);
+}
+
+.image {
+    height: 190px;
+    /* object-fit: contain; */
+    align-self: center;
+    width: 100%;
+    /* border: solid; */
+    /* background-color: black; */
+}
+
+/* .effect {
+    justify-content: center;
+    border: solid;
+} */
+
+/* #logo {
+    float: left;
+} */
+
+.card {
+    width: 300px;
+    height: 20px;
+    margin: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: black
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        height: 670px;
+        overflow: scroll;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        overflow: scroll;
+    }
+}
