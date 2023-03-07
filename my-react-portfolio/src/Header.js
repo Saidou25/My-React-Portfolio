@@ -35,7 +35,7 @@ const Header = () => {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className='header-navigation'>
+        <div>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} pages={pages} />
             {renderPage()}
         </div>

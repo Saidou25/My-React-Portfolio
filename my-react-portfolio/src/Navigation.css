@@ -1,14 +1,14 @@
- .navigation-header {
-    display: flex;
+ .navigation-top {
+     display: flex;
      color: black;
      align-items: center;
      justify-content: space-between;
-     background-color: rgb(245, 233, 214);
+     background-color: rgb(228, 149, 22);
      height: 150px;
  }
 
  .nav-item {
-     color: black;    
+     color: black;
  }
 
  h1 {
@@ -16,19 +16,24 @@
      margin-left: 20px;
  }
 
-.navigation {
-    display: flex;
-    justify-content: flex-end;
-}
-@media screen and (max-width: 390px) {
-    .navigation {
-        flex-direction: column;
-        align-items: center;
-    }
-    .nav-item {
-        color: black;      
-    }
-    .myname {
-        padding-top:10px;
-    }
-};
+ .navigation {
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ @media screen and (max-width: 390px) {
+     .navigation {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .nav-item {
+         color: black;
+     }
+
+     .myname {
+         padding-top: 10px;
+     }
+ }
+
+ ;
