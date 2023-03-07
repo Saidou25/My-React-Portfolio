@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import "./About.css";
 import "./Contact.css";
 import './Header.css';
+import './Footer.css';
 import './index.css';
 import './Project.css';
 import "./Resume.css";

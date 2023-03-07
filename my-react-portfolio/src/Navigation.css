@@ -1,5 +1,5 @@
  .navigation-header {
-    
+    display: flex;
      color: black;
      align-items: center;
      justify-content: space-between;
