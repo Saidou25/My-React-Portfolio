@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/My-React-Portfolio/static/js/main.bd4f5575.js",
+    "main.css": "/My-React-Portfolio/static/css/main.b19800fa.css",
+    "main.js": "/My-React-Portfolio/static/js/main.e4c75009.js",
     "static/js/787.56d9acf9.chunk.js": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js",
-    "static/media/logo.svg": "/My-React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/weather.png": "/My-React-Portfolio/static/media/weather.79b3f2fa6148c5aff833.png",
+    "static/media/me.jpg": "/My-React-Portfolio/static/media/me.09931c716c75c8ecaeb2.jpg",
+    "static/media/searchfour.png": "/My-React-Portfolio/static/media/searchfour.58e8371ff4ecf479cc75.png",
+    "static/media/seoFour.png": "/My-React-Portfolio/static/media/seoFour.a5403a1531e554c025d2.png",
+    "static/media/myteam.png": "/My-React-Portfolio/static/media/myteam.af2a2226d425956bcd9d.png",
+    "static/media/newpassword.png": "/My-React-Portfolio/static/media/newpassword.9b8d259c6ad0a5dfc2d2.png",
+    "static/media/note.3.png": "/My-React-Portfolio/static/media/note.3.ab7f8cf5fdfdbc2f29b2.png",
+    "static/media/linkedIn.png": "/My-React-Portfolio/static/media/linkedIn.820713580bd821c4dc2c.png",
     "index.html": "/My-React-Portfolio/index.html",
-    "main.073c9b0a.css.map": "/My-React-Portfolio/static/css/main.073c9b0a.css.map",
-    "main.bd4f5575.js.map": "/My-React-Portfolio/static/js/main.bd4f5575.js.map",
+    "main.b19800fa.css.map": "/My-React-Portfolio/static/css/main.b19800fa.css.map",
+    "main.e4c75009.js.map": "/My-React-Portfolio/static/js/main.e4c75009.js.map",
     "787.56d9acf9.chunk.js.map": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bd4f5575.js"
+    "static/css/main.b19800fa.css",
+    "static/js/main.e4c75009.js"
   ]
 }
