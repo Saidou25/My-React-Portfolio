@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "./About.css";
 import "./Contact.css";
-import './Footer.css';
+// import './Footer.css';
 import './index.css';
 import './Project.css';
 import "./Resume.css";
