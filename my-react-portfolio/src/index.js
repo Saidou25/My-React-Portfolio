@@ -8,6 +8,7 @@ import './Project.css';
 import "./Resume.css";
 import './Navigation.css';
 import App from './App';
+import "bootswatch/dist/lux/bootstrap.min.css";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
