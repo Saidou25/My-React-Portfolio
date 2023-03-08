@@ -6,7 +6,7 @@ function Navigation({ currentPage, handlePageChange, pages }) {
 
   return (
     // <div className='main'>
-      <div className='row navigation-top'>
+      <div className='row top'>
         <div className='col-lg-4 flex myname'>
           <h1>Saidou Monta</h1>
         </div>
