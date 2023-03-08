@@ -28,7 +28,7 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body id="animation">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -42,7 +42,26 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.fog.min.js"></script>
+<script>
+  VANTA.FOG({
+    el: "#animation",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 920.00,
+    maxHeight: 620.00,
+    minWidth: 200,
+    highlightColor: 0xffc300,
+    midtoneColor: 0xff1f00,
+    lowlightColor: 0x2d00ff,
+    baseColor: 0xd2d119,
+    blurFactor: 0.46,
+    speed: 0.50,
+    zoom: 0.30
+  })
+</script>
 </html>
