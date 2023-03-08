@@ -44,7 +44,7 @@ function Contact() {
   };
 
   return (
-    <div className="contact-contair">
+    <div className="contact-container">
     <div className="row-contact">
       <div className="formContainer">
         <div className="col-6 left-box flex m-10">
