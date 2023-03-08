@@ -4,6 +4,8 @@
     align-items: center;
     height: 110px;
     /* background-color: blue; */
+    /* position: fixed; */
+    bottom: 0;
 }
 
 .linkedIn {

@@ -21,7 +21,8 @@
 }
 
 .right-box {
-    margin-top: 200px;
+
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -44,6 +45,7 @@
 .box {
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
 .box .inner {
@@ -91,16 +93,17 @@
 }
 
 @media screen and (max-width:660px) {
-    .contact-contair {
+    /* .contact-container {
         overflow: scroll;
-        height: 550px;
+        height: 600px;
         max-width: 100%;
-    }
+    } */
 
     .row-contact {
         display: flex;
         flex-direction: column-reverse;
-        /* height: 600px; */
+        /* height: 900px; */
+        align-items: flex-end;
         /* margin-top: 20px; */
         /* margin-right: auto; */
         /* margin-left: auto; */
@@ -110,9 +113,12 @@
     }
 
     .right-box {
-        margin-top: -40px;
+        /* margin-top: -40px; */
         /* justify-content: center; */
         /* align-items: flex-start; */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
         margin-right: auto;
         margin-left: auto;
     
@@ -134,7 +140,7 @@
         height: auto;
         /* margin-right: auto; */
         /* margin-left: auto; */
-        width: 700px;
+        max-width: 90%;
     }
 
     @media screen and (max-width: 415px) {
@@ -242,7 +248,7 @@
     @media screen and (max-width:375px) {}
 
     .contact-container {
-        height: 440px;
+        height: 450px;
         overflow: scroll;
     }
 
