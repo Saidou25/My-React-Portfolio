@@ -1,5 +1,6 @@
 .row-contact {
     display: flex;
+    flex-direction: row;
     height: 670px;
     margin-top: 20px;
     margin-right: auto;
