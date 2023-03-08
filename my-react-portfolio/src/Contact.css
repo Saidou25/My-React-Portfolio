@@ -1,18 +1,23 @@
-.formContainer {
+.row-contact {
     display: flex;
-    height: 650px;
+    height: 670px;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
-
+    width: 80%;
+    justify-content: center;
 }
 
 .left-box {
     align-items: center;
     max-width: 40%;
-    /* height: 60px; */
     margin-top: 7%;
-    margin-left: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-control {
+    font-style: oblique;
 }
 
 .right-box {
@@ -85,27 +90,34 @@
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:660px) {
     .contact-contair {
-        /* overflow: scroll; */
-        height: 650px;
-        /* max-width: 100%; */
+        overflow: scroll;
+        height: 550px;
+        max-width: 100%;
     }
 
-    .formContainer {
+    .row-contact {
+        display: flex;
         flex-direction: column-reverse;
-        height: 200px;
-        margin-top: 20px;
-        align-items: center;
+        /* height: 600px; */
+        /* margin-top: 20px; */
+        /* margin-right: auto; */
+        /* margin-left: auto; */
+        width: 100%;
+        /* overflow: scroll; */
+        /* justify-content: center; */
     }
 
     .right-box {
-        margin-top: 200px;
-        justify-content: center;
-        align-items: center;
+        margin-top: -40px;
+        /* justify-content: center; */
+        /* align-items: flex-start; */
+        margin-right: auto;
+        margin-left: auto;
+    
     }
-
-    .box .inner {
+     .box .inner {
         width: 200px;
         height: 100px;
         line-height: 200px;
@@ -119,14 +131,18 @@
     }
 
     .left-box {
-        height: 60px;
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 100%;
+        height: auto;
+        /* margin-right: auto; */
+        /* margin-left: auto; */
+        width: 700px;
     }
 
     @media screen and (max-width: 415px) {
-/* 
+        .contact-container {
+            /* overflow: scroll; */
+            height: 650px;
+            /* max-width: 700px; */
+        } /* 
         .cont {
             flex-direction: column-reverse;
             height: 320px;
@@ -171,14 +187,15 @@
 
         .contact-container {
             /* overflow: scroll; */
-            height: 660px;
+            height: 620px;
             /* max-width: 700px; */
         }
-        .formContainer {
+
+        /* .formContainer {
             flex-direction: column-reverse;
             height: 170px;
             margin-top: 20px;
-        }
+        } */
 
         /* .right-box {
             justify-content: center;
@@ -225,7 +242,7 @@
     @media screen and (max-width:375px) {}
 
     .contact-container {
-        /* height: 460px; */
+        height: 440px;
         overflow: scroll;
     }
 
