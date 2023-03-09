@@ -1,17 +1,18 @@
 .row-contact {
     display: flex;
-    flex-direction: row;
-    height: 670px;
+   
+    /* height: 670px;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-    justify-content: center;
+    justify-content: center; */
 }
-.contact-container {
+/* .contact-container {
     display: flex;
-}
+} */
 .left-box {
+    display: flex;
     align-items: center;
     max-width: 40%;
     margin-top: 7%;
