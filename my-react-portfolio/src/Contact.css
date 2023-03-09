@@ -1,42 +1,42 @@
 .row-contact {
     display: flex;
    
-    /* height: 670px;
+    height: 670px;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-    justify-content: center; */
+    justify-content: center;
 }
 /* .contact-container {
     display: flex;
 } */
-/* .left-box {
-    display: flex;
+.left-box {
+    /* display: flex; */
     align-items: center;
     max-width: 40%;
     margin-top: 7%;
     margin-right: auto;
     margin-left: auto;
-} */
+}
 
 .form-control {
     font-style: oblique;
 }
 
-/* .right-box {
+.right-box {
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-} */
+}
 
-/* .form-label {
+.form-label {
     margin: 10px;
-} */
+}
 
-/* .comments {
+.comments {
     display: flex;
     overflow: hidden;
     height: 150px;
@@ -44,13 +44,13 @@
 
 .btn-primary {
     margin-top: 50px;
-} */
+}
 
-/* .box {
+.box {
     display: flex;
     justify-content: center;
     max-width: 100%;
-} */
+}
 
 .box .inner {
     width: 400px;
