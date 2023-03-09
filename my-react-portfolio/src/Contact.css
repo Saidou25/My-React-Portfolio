@@ -19,11 +19,6 @@
     margin-right: auto;
     margin-left: auto;
 }
-
-.form-control {
-    font-style: oblique;
-}
-
 .right-box {
 
     display: flex;
@@ -31,6 +26,11 @@
     align-items: center;
 
 }
+
+.form-control {
+    font-style: oblique;
+}
+
 
 .form-label {
     margin: 10px;
