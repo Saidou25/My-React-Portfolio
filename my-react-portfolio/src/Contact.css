@@ -8,7 +8,9 @@
     width: 80%;
     justify-content: center;
 }
-
+.contact-container {
+    display: flex;
+}
 .left-box {
     align-items: center;
     max-width: 40%;
