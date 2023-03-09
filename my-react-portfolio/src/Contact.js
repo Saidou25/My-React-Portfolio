@@ -47,7 +47,7 @@ function Contact() {
     // <div className="contact-container">
       <div className="row-contact">
         {/* <div className="formContainer"> */}
-        <div className="col-6 left-box">
+        <div className="col-lg-6 left-box">
           {/* <div className="mb-5"> */}
 
           <label className="form-label">
@@ -95,7 +95,7 @@ function Contact() {
           {/* </div> */}
         </div>
 
-        <div className="col-6 right-box">
+        <div className="col-lg-6 right-box">
           <div className="box">
             <div className="inner">
               <span>Async</span>
