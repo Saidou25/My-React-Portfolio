@@ -44,7 +44,7 @@ function Contact() {
   };
 
   return (
-    <div className="contact-container">
+    // <div className="contact-container">
       <div className="row-contact">
         {/* <div className="formContainer"> */}
         <div className="col-6 left-box flex m-10">
@@ -106,7 +106,7 @@ function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    // </div>
     // </div >
   )
 };
