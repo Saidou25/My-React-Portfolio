@@ -1,5 +1,5 @@
-.contact {
-    display: flex;
+.about-container {
+   
     height: 670px;
     /* margin-top: 20px; */
     margin-right: auto;
@@ -7,10 +7,19 @@
     width: 80%;
 
 }
+.contact {
+    display: flex;
+    /* height: 670px; */
+    /* margin-top: 20px; */
+    margin-right: auto;
+    margin-left: auto;
+    /* width: 80%; */
+
+}
 
 .left-box {
     /* display: flex; */
-    width: 90%;
+    /* width: 90%; */
     margin-top: 7%;
     /* margin-right: auto;
     margin-left: auto; */
