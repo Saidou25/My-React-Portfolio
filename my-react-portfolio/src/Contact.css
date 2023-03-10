@@ -1,24 +1,22 @@
 .contact {
     display: flex;
-   
-     height: 670px;
-    margin-top: 20px;
+    height: 670px;
+    /* margin-top: 20px; */
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-   justify-content: center; 
+
 }
-.contact-container {
-    display: flex;
-}
+
 .left-box {
     /* display: flex; */
-    align-items: center;
-    max-width: 40%;
+    width: 90%;
     margin-top: 7%;
-    margin-right: auto;
-    margin-left: auto; 
+    /* margin-right: auto;
+    margin-left: auto; */
+    /* justify-content: center; */
 }
+
 .right-box {
 
     display: flex;
@@ -36,7 +34,7 @@
     margin: 10px;
 }
 
-.comments {
+.Message {
     display: flex;
     overflow: hidden;
     height: 150px;
@@ -96,38 +94,27 @@
     }
 }
 
-@media screen and (max-width:660px) {
-    /* .contact-container {
-        overflow: scroll;
-        height: 600px;
-        max-width: 100%;
-    } */
+/* @media screen and (max-width:660px) {
+   
 
-    .row-contact {
+    .contact {
         display: flex;
         flex-direction: column-reverse;
-        /* height: 900px; */
         align-items: flex-end;
-        /* margin-top: 20px; */
-        /* margin-right: auto; */
-        /* margin-left: auto; */
         width: 100%;
-        /* overflow: scroll; */
-        /* justify-content: center; */
+
     }
 
     .right-box {
-        /* margin-top: -40px; */
-        /* justify-content: center; */
-        /* align-items: flex-start; */
         display: flex;
         justify-content: center;
         align-items: flex-start;
         margin-right: auto;
         margin-left: auto;
-    
+
     }
-     .box .inner {
+
+    .box .inner {
         width: 200px;
         height: 100px;
         line-height: 200px;
@@ -142,17 +129,18 @@
 
     .left-box {
         height: auto;
-        /* margin-right: auto; */
-        /* margin-left: auto; */
+
         max-width: 90%;
-    }
+    } */
 
     @media screen and (max-width: 415px) {
         .contact-container {
             /* overflow: scroll; */
             height: 650px;
             /* max-width: 700px; */
-        } /* 
+        }
+
+        /* 
         .cont {
             flex-direction: column-reverse;
             height: 320px;
@@ -249,7 +237,7 @@
         } */
     }
 
-    @media screen and (max-width:375px) {}
+    @media screen and (max-width:375px) {
 
     .contact-container {
         height: 450px;
@@ -271,4 +259,6 @@
         white-space: nowrap;
         overflow: hidden;
     }
-};
+}
+
+;

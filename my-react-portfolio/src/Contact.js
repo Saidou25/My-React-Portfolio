@@ -46,7 +46,7 @@ const Contact = () => {
             className="form-control message"
             name="message"
          
-            placeholder="Comments" />
+            placeholder="type your message..." />
           <button className="btn btn-primary"
             type="submit"
             value="Send">Submit</button>
