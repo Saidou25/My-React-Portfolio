@@ -25,8 +25,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
-    <div className="row-contact">
+    <div className="row contact">
       <div className="col-lg-6 left-box">
         <form ref={form} onSubmit={sendEmail}>
           <label className="form-label">Name</label>
@@ -62,7 +61,6 @@ const Contact = () => {
           <div className="inner">
             <span>Await</span>
           </div>
-        </div>
         </div>
 
       </div>
