@@ -31,17 +31,15 @@
     border-radius:50%;
  }
 
- /* .story {
-     margin-right: 60px;
-     margin-left: 15px;
-    
- } */
+ .story {
+     padding-right: 10px;
+     padding-left: 10px;
+ }
 
  @media screen and (max-width: 990px) {
     
      .about-me {
-         padding-top: 30px;
-         
+         padding-top: 30px;       
         }
 
      .title {
@@ -85,7 +83,7 @@
             width: 80%;
             margin-right: auto;
             margin-left: auto;
-            overflow: scroll;
+            /* overflow: scroll; */
         }
       
         .story { 
@@ -101,7 +99,7 @@
             padding-left: 2px;
             margin-right: auto;
             margin-left: auto;
-            overflow: scroll;
+            /* overflow: scroll; */
         }
     }
     @media screen and (max-width: 375px) {

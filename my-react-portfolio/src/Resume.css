@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 390px) {
     .container-resume {
-        height: 620px;
+        height: 700px;
         text-align: center;
         overflow: scroll;
         padding-top: 30px;

@@ -3,10 +3,15 @@
     justify-content: center;
     align-items: center;
     height: 110px;
-    /* background-color: blue; */
-    /* position: fixed; */
-    bottom: 0;
 }
+
+/* .logos {
+    position: sticky;
+    bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+} */
 
 .linkedIn {
     max-width: 45px;
@@ -23,7 +28,14 @@
         display: flex;
         justify-content: center;
     }
+    .logos {
+      
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+    }
 }
+
 /* @media screen and (max-width: 390px) {
     .footer {
         height: 70px;

@@ -7,7 +7,7 @@ function Resume() {
 
     <div className="container-resume">
       <a className="resume-link" 
-      href="https://drive.google.com/file/d/11sNa9tlWpeUklJvETexl_Ms0bNcbLkiy/view?usp=share_link">(Link to downloadable Resume)</a>
+      href="https://drive.google.com/file/d/1CvlrOEYrK5wq1DIKuM3wbF0KWkyCQoTq/view?usp=sharing">(Link to downloadable Resume)</a>
       <h3 className="titles">Foundation</h3>
 
       <p> HTML and CSS</p>

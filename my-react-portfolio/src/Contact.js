@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 
 import emailjs from 'emailjs-com';
 import "./Contact.css";
@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container-contact">
     <div className="row contact">
       <div className="col-lg-6 left-box">
         <form ref={form} onSubmit={sendEmail}>
