@@ -7,7 +7,7 @@ function Project({ projects }) {
 
 
     <div>
-      <h3 className='my-projects'>Projects</h3>
+      <h3 className='title'>Projects</h3>
       <div className='container'>
         <div className='row'>
           {projects.map((project) => (

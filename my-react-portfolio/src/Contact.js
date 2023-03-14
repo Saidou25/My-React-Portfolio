@@ -25,44 +25,46 @@ const Contact = () => {
   };
 
   return (
-    <div className="container-contact">
-    <div className="row contact">
-      <div className="col-lg-6 left-box">
-        <form ref={form} onSubmit={sendEmail}>
-          <label className="form-label">Name</label>
-          <input
-            className="form-control"
-          
-            type="text"
-            name="user_name"
-            placeholder="Name" />
-          <label className="form-label">Email</label>
-          <input
-            className="form-control"
-            type="email"
-            name="user_email"
-            placeholder="example@example.com" />
-          <label className="form-label">Message</label>
-          <textarea
-            className="form-control message"
-            name="message"
-         
-            placeholder="type your message..." />
-          <button className="btn btn-primary"
-            type="submit"
-            value="Send">Submit</button>
-        </form>
-      </div>
 
-      <div className="col-lg-6 right-box">
-        <div className="box">
-          <div className="inner">
-            <span>Async</span>
-          </div>
-          <div className="inner">
-            <span>Await</span>
-          </div>
+    <div className="container-contact">
+      <h3 className='title'>Contact Me</h3>
+      <div className="row contact">
+        <div className="col-lg-6 left-box">
+          <form ref={form} onSubmit={sendEmail}>
+            <label className="form-label">Name</label>
+            <input
+              className="form-control"
+
+              type="text"
+              name="user_name"
+              placeholder="Name" />
+            <label className="form-label">Email</label>
+            <input
+              className="form-control"
+              type="email"
+              name="user_email"
+              placeholder="example@example.com" />
+            <label className="form-label">Message</label>
+            <textarea
+              className="form-control message"
+              name="message"
+
+              placeholder="type your message..." />
+            <button className="btn btn-primary"
+              type="submit"
+              value="Send">Submit</button>
+          </form>
         </div>
+
+        <div className="col-lg-6 right-box">
+          <div className="box">
+            <div className="inner">
+              <span>Async</span>
+            </div>
+            <div className="inner">
+              <span>Await</span>
+            </div>
+          </div>
         </div>
 
       </div>

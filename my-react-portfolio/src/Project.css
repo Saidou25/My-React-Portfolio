@@ -1,12 +1,13 @@
-.my-projects {
+.title {
     text-align: center;
-    margin-bottom: 30px;
+    height: 65px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .container {
     margin-right: auto;
     margin-left: auto;
-    height: 590px;
     margin-top: 50px;
 }
 
@@ -20,13 +21,11 @@
 .card:hover #text {
     opacity: 1;
     padding: 8px;
-
 }
 
 .card:hover img {
     opacity: 0.2;
     padding: 8px;
-
 }
 
 .card-img-overlay:hover {
@@ -37,7 +36,7 @@
     height: 190px;
     align-self: center;
     width: 100%;
-   
+
 }
 
 .card {
@@ -53,8 +52,6 @@
     .container {
         margin-right: auto;
         margin-left: auto;
-        height: 670px;
-        overflow: scroll;
     }
 }
 
@@ -62,6 +59,6 @@
     .container {
         margin-right: auto;
         margin-left: auto;
-        height: 620px;
     }
-};
+}
+

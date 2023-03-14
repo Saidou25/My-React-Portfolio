@@ -11,11 +11,9 @@
  }
 
  .about {
-     height: 665px;
      width: 70%;
      margin-right: auto;
      margin-left: auto;
-     overflow: scroll;
  }
 
  .responsive {
@@ -25,10 +23,11 @@
      margin-right: auto;
      margin-left: auto;
      margin-top: -20px;
-     
+
  }
+
  .me {
-    border-radius:50%;
+     border-radius: 50%;
  }
 
  .story {
@@ -37,10 +36,10 @@
  }
 
  @media screen and (max-width: 990px) {
-    
+
      .about-me {
-         padding-top: 30px;       
-        }
+         padding-top: 30px;
+     }
 
      .title {
          text-align: center;
@@ -49,21 +48,18 @@
      }
 
      .about {
-         height: 670px;
+
          width: 80%;
          margin-right: auto;
          margin-left: auto;
-         overflow: scroll;
      }
 
      .responsive {
          display: flex;
          max-width: 80%;
-         max-height: 80%;
          margin-right: auto;
          margin-left: auto;
          align-items: center;
-
      }
 
      .worker {
@@ -71,54 +67,37 @@
          display: flex;
          align-items: center;
      }
-     /* .story {
-      
-        margin-left: 2px;
-        margin-right: 2px;
-        
-    } */
-    @media screen and (max-width: 415px) {
-        .about {
-            height: 690px;
-            width: 80%;
-            margin-right: auto;
-            margin-left: auto;
-            /* overflow: scroll; */
-        }
-      
-        .story { 
-            margin-left: 2px;
-            margin-right: 2px;          
-        }
-    }
-    @media screen and (max-width: 390px) {
-        .about {
-            height: 666px;
-            width: 95%;
-            padding-right: 2px;
-            padding-left: 2px;
-            margin-right: auto;
-            margin-left: auto;
-            /* overflow: scroll; */
-        }
-    }
-    @media screen and (max-width: 375px) {
-        .about {
-            height: 670px;
-            width: 80%;
-            margin-right: auto;
-            margin-left: auto;
-            overflow: scroll;
-        }
-        #animation {
-            width: 100vw;
-            height: 100vh;
-            padding:0;
-            margin:0;
-            overflow:hidden; 
-        }
-        body{
-            margin:0;
-          }
-    }
- };
+
+     @media screen and (max-width: 415px) {
+         .about {
+             width: 80%;
+             margin-right: auto;
+             margin-left: auto;
+         }
+
+         .story {
+             margin-left: 2px;
+             margin-right: 2px;
+         }
+     }
+
+     @media screen and (max-width: 390px) {
+         .about {
+             width: 95%;
+             padding-right: 2px;
+             padding-left: 2px;
+             margin-right: auto;
+             margin-left: auto;
+         }
+     }
+
+     @media screen and (max-width: 375px) {
+         .about {
+             width: 80%;
+             margin-right: auto;
+             margin-left: auto;
+         }
+     }
+ }
+
+ ;

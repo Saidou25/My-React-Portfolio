@@ -7,7 +7,6 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <div className='logos'>
         <a href="https://github.com/Saidou25">
           <img src={logo} className='github' alt="minicat"></img>
         </a>
@@ -17,7 +16,7 @@ function Footer() {
         <a href="https://www.linkedin.com/feed/">
           <img src={linkedIn} className='linkedIn' alt="letters l n"></img>
         </a>
-      </div>
+     
     </footer>
 
   );

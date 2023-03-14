@@ -6,7 +6,7 @@ import me from './me.jpg';
 function About() {
 
   return (
-    <div className="container-resume">
+    <div className="container-about">
       <div className='about'>
         <h3 className='title'>About Me</h3>
         <div className='row'>

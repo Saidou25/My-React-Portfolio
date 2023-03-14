@@ -1,12 +1,14 @@
 .container-contact {
-
-    height: 670px;
-    margin-right: auto;
+ margin-right: auto;
     margin-left: auto;
     width: 80%;
-
 }
-
+.title {
+    text-align: center;
+    height: 65px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
 .contact {
     display: flex;
     margin-right: auto;
@@ -95,10 +97,10 @@
 }
 
 @media screen and (max-width: 414px) {
-    .container-contact {
+    /* .container-contact {
         height: 670px;
      
-    }
+    } */
     .right-box {
         padding-top: 60px;
     }
@@ -106,10 +108,10 @@
 
 @media screen and (max-width: 390px) {
    
-    .container-contact {
-       /* align-items: center; */
+    /* .container-contact {
+       
         height: 630px;
-    }
+    } */
     .btn-primary {
         margin-top: 40px;
     }
@@ -134,11 +136,11 @@
 
 @media screen and (max-width: 375px) {
 
-    .container-contact {
+    /* .container-contact {
         height: 470px;
-    }
+    } */
 
-    .btn-primary {
+    /* .btn-primary {
         margin-top: 20px;
     }
     .left-box {
@@ -147,11 +149,11 @@
 
     .right-box {
         padding-top: 20px;
-    }
+    } */
 
     .box .inner {
         width: 200px;
-        height: 70px;
+        height: 200px;
         line-height: 200px;
         font-size: 3em;
         font-weight: bold;
