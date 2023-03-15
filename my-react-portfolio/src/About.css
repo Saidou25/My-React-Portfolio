@@ -33,52 +33,72 @@
  .story {
      padding-right: 10px;
      padding-left: 10px;
+     font-size: 1.2em;
  }
-
- @media screen and (max-width: 990px) {
-
-     .about-me {
-         padding-top: 30px;
-     }
-
-     .title {
-         text-align: center;
-         height: 35px;
-         margin-bottom: 20px;
-     }
-
+ @media screen and (max-width: 1238px) {
      .about {
-
-         width: 80%;
+         width: 97%;
          margin-right: auto;
          margin-left: auto;
+    
+        }
+       
+        .story {
+            padding-right: 35px;
+            padding-left: 10px;
+            font-size: 1.2em;
+        }
+        
+    }
+    @media screen and (max-width: 991px) {
+        
+        .about-me {
+            padding-top: 30px;
+        }
+        
+        .title {
+            text-align: center;
+            height: 35px;
+            margin-bottom: 20px;
+        }
+        
+        .about {
+            
+            width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        .responsive {
+            display: flex;
+            max-width: 90%;
+            max-height: 90%;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: -20px;
+            
+        }
+        .story {
+            margin-left: 2px;
+            margin-right: 2px;
+            margin-bottom: 20px;
      }
-
-     .responsive {
-         display: flex;
-         max-width: 80%;
-         margin-right: auto;
-         margin-left: auto;
-         align-items: center;
-     }
-
-     .worker {
-         height: 150px;
-         display: flex;
-         align-items: center;
-     }
-
-     @media screen and (max-width: 415px) {
-         .about {
-             width: 80%;
-             margin-right: auto;
-             margin-left: auto;
-         }
-
-         .story {
-             margin-left: 2px;
-             margin-right: 2px;
-         }
+     .about-me {
+        border-left: none;
+        
+    }
+        .worker {
+            height: 150px;
+            display: flex;
+            align-items: center;
+        }
+        
+        @media screen and (max-width: 415px) {
+            .about {
+                width: 80%;
+                margin-right: auto;
+                margin-left: auto;
+            }
      }
 
      @media screen and (max-width: 390px) {
