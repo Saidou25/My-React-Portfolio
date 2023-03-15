@@ -1,29 +1,33 @@
-.container-contact {
- margin-right: auto;
+.container-contactme {
+    margin-right: auto;
     margin-left: auto;
     width: 80%;
 }
+
 .title {
     text-align: center;
     height: 65px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
+
 .contact {
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+   
 }
 
 .left-box {
     margin-top: 7%;
+    margin-bottom: 5%;
 }
 
 .right-box {
-
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 7%;
 
 }
 
@@ -97,21 +101,14 @@
 }
 
 @media screen and (max-width: 414px) {
-    /* .container-contact {
-        height: 670px;
-     
-    } */
+
     .right-box {
         padding-top: 60px;
     }
 }
 
 @media screen and (max-width: 390px) {
-   
-    /* .container-contact {
-       
-        height: 630px;
-    } */
+
     .btn-primary {
         margin-top: 40px;
     }
@@ -134,33 +131,4 @@
     }
 }
 
-@media screen and (max-width: 375px) {
 
-    /* .container-contact {
-        height: 470px;
-    } */
-
-    /* .btn-primary {
-        margin-top: 20px;
-    }
-    .left-box {
-        margin-top: 0px;
-    }
-
-    .right-box {
-        padding-top: 20px;
-    } */
-
-    .box .inner {
-        width: 200px;
-        height: 200px;
-        line-height: 200px;
-        font-size: 3em;
-        font-weight: bold;
-        white-space: nowrap;
-        overflow: hidden;
-        display: flex;
-        animation: marquee 5s linear infinite;
-        align-items: center;
-    }
-};

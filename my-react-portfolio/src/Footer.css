@@ -2,37 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   }
+}
 
 .linkedIn {
     max-width: 45px;
-    margin: 5px;
+    margin-bottom: 20px;
+
 }
 
 .github {
+    margin-right: 7px;
     max-width: 45px;
+    margin-bottom: 20px;
 }
-
-/* @media screen and (max-width: 415px) {
-    .footer {
-        display: flex;
-        justify-content: center;
-    }
-
-} */
-
-/* @media screen and (max-width: 390px) {
-    .footer {
-        height: 70px;
-        display: flex;
-        justify-content: center;
-    }
-} */
-
-/* @media screen and (max-width: 375px) {
-    .footer {
-        height: 70px;
-        display: flex;
-        justify-content: center;
-    }
-} */
