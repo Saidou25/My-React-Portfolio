@@ -1,8 +1,8 @@
-/* .container-contactme {
+.container-contactme {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-} */
+}
 
 .title {
     text-align: center;
@@ -11,17 +11,19 @@
     margin-bottom: 20px;
 }
 
-/* .contact {
+.contact {
     display: flex;
     margin-right: 100px;
     margin-left: 100px;
-   
-} */
+
+}
 
 .left-box {
     margin-top: 7%;
     margin-bottom: 5%;
     padding-left: 13%;
+    padding-right: 13%;
+    ;
 }
 
 .right-box {
@@ -40,7 +42,7 @@
 .form-label {
     margin: 10px;
     font-size: 1.2em;
-     color: rgb(61, 51, 51);
+    color: rgb(61, 51, 51);
 }
 
 .Message {
@@ -107,14 +109,16 @@
 
     .right-box {
         padding-top: 60px;
-       
+
     }
+
     .left-box {
         padding-top: 60px;
         padding-right: 13%;
         padding-left: 13%;
     }
 }
+
 @media screen and (max-width: 414px) {
 
     .right-box {
@@ -145,5 +149,3 @@
         align-items: center;
     }
 }
-
-
