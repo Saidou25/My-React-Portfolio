@@ -38,6 +38,8 @@
 
 .form-label {
     margin: 10px;
+    font-size: 1.2em;
+     color: rgb(61, 51, 51);
 }
 
 .Message {

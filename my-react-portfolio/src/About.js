@@ -11,7 +11,7 @@ function About() {
         <h3 className='title'>About Me</h3>
         <div className='row'>
           <div className='col-lg-5 col-md-12 worker'>
-            <img src={me} className="responsive me" alt="Worker"></img>
+            <img src={me} className="responsive me" alt="Workerme"></img>
           </div>
           <div className='col-lg-7 col-md-12 flex about-me'>
 
