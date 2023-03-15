@@ -7,22 +7,25 @@
     overflow: scroll;
 }
 
-.title {
+.title-resume {
     text-align: center;
     height: 65px;
     margin-top: 50px;
     margin-bottom: -30px;
 }
-
+.title-fondation {
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
 .titles {
     margin: 40px;
 }
 
 .resume-link {
+    font-size: 1.2em;
+    color: rgb(61, 51, 51);
     padding-top: 10px;
     font-style: oblique;
-    margin-bottom: 150px;
-
 }
 
 p {

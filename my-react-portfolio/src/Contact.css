@@ -1,8 +1,8 @@
-.container-contactme {
+/* .container-contactme {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-}
+} */
 
 .title {
     text-align: center;
@@ -21,7 +21,7 @@
 .left-box {
     margin-top: 7%;
     margin-bottom: 5%;
-    padding-left: 10px;
+    padding-left: 13%;
 }
 
 .right-box {
@@ -103,6 +103,18 @@
     }
 }
 
+@media screen and (max-width: 991px) {
+
+    .right-box {
+        padding-top: 60px;
+       
+    }
+    .left-box {
+        padding-top: 60px;
+        padding-right: 13%;
+        padding-left: 13%;
+    }
+}
 @media screen and (max-width: 414px) {
 
     .right-box {
