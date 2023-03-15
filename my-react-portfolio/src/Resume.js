@@ -11,7 +11,7 @@ function Resume() {
       <a className="resume-link" 
       href="https://drive.google.com/file/d/1CvlrOEYrK5wq1DIKuM3wbF0KWkyCQoTq/view?usp=sharing">(Link to downloadable Resume)</a>
       </div>
-      <h3 className="titles">Foundation</h3>
+      <h3 className="titles" id='foundation'>Foundation</h3>
 
       <p> HTML and CSS</p>
       <p>Git</p>

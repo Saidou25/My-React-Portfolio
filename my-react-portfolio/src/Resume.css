@@ -11,7 +11,7 @@
     text-align: center;
     height: 65px;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: -30px;
 }
 
 .titles {
@@ -21,6 +21,7 @@
 .resume-link {
     padding-top: 10px;
     font-style: oblique;
+    margin-bottom: 150px;
 
 }
 
