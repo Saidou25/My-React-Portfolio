@@ -9,12 +9,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      <div>
-        <Header />
-      </div>
-      <div>
-        <Footer />
-      </div>
+      <Header />
+      <Footer />
     </div>
   );
 }

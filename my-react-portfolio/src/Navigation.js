@@ -15,7 +15,7 @@ function Navigation({ currentPage, handlePageChange, pages }) {
             {pages.map((page) => (
               <article key={page} className='nav-item'>
                 <a
-                  href={`#${page.toLowerCase()}`}
+                  href={`#${page}`}
                   onClick={() => handlePageChange(page)}
                   className={currentPage === page ? 'nav-link-active text-dark' : 'nav-link'}
                   id='nav-link'

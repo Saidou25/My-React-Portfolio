@@ -35,17 +35,21 @@ p {
 
 @media screen and (max-width: 390px) {
     .container-resume {
+        height: auto;
         text-align: center;
         padding-top: 30px;
         padding-bottom: 10px;
+        overflow: none;
     }
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
     .container-resume {
+        height: auto;
         text-align: center;
         padding-top: 30px;
         padding-bottom: 10px;
 
+
     }
-}
+} */
