@@ -86,7 +86,7 @@ const Contact = () => {
 
   return (
 
-    <div className="container-contactme">
+    <div className="container contactme">
       <h3 className='title'>Contact Me</h3>
       <div className="row contact">
         <div className="col-lg-6 left-box">
@@ -146,10 +146,10 @@ const Contact = () => {
         <div className="col-lg-6 right-box">
           <div className="box">
             <div className="inner">
-              <span>Async</span>
+              <span>Await</span>
             </div>
             <div className="inner">
-              <span>Await</span>
+              <span>Async</span>
             </div>
           </div>
         </div>
