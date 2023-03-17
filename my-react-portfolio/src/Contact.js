@@ -14,6 +14,7 @@ const Contact = () => {
   const [message, setMessage] = useState("");
 
   const handleInputChange = (event) => {
+    
     const x = document.querySelector(".validate");
     const y = document.querySelector(".invalidate");
     const x1 = document.querySelector(".validate1");
