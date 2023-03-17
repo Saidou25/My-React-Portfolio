@@ -23,17 +23,23 @@
     margin-bottom: 5%;
     padding-left: 13%;
     padding-right: 13%;
-    
+
 }
-.validate, .validate2{
+
+.validate,
+.validate2,
+.validate1 {
     display: none;
     color: green;
     margin-top: 7px;
 }
-.invalidate, .invalidate2 {
+
+.invalidate,
+.invalidate2,
+.invalidate1 {
     margin-top: 7px;
     color: red;
-   
+
 }
 
 .right-box {
