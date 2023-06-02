@@ -9,10 +9,10 @@ function Project({ projects }) {
     <div>
       <h3 className='title'>Projects</h3>
       <div className='container'>
-        <div className='row'>
         <h3>
           Hello
         </h3>
+        <div className='row'>
           <div className='col-12 featured-project mt-5'>
             <div className='card'>
               <div href={'https://git.heroku.com/healing.git'} >
