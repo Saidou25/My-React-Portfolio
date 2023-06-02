@@ -10,7 +10,11 @@
     margin-left: auto;
     margin-top: 50px;
 }
-
+.featured-project {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
 #text {
     display: flex;
     justify-content: center;
