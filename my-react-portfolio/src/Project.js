@@ -10,6 +10,12 @@ function Project({ projects }) {
       <h3 className='title'>Projects</h3>
       <div className='container'>
         <div className='row'>
+          <div className='col-12 featured project'>
+            <div className='card'>
+              <div href={'https://git.heroku.com/healing.git'} >
+              </div>
+            </div>
+          </div>
           {projects.map((project) => (
             <div className='col-lg-4 col-md-6 col-sm-12 flex effect' key={project.id}>
               <div className='card round'>

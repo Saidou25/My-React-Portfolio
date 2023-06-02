@@ -5,7 +5,7 @@ import weatherDashboard from './weather.png';
 import password from './newpassword.png';
 import team from './myteam.png';
 import NoteTaker from './note.3.png';
-import print from './searchfour.png';
+import print from './print.jpg';
 import logo from './logo.png';
 
 const projects = [
@@ -41,7 +41,7 @@ const projects = [
         {
                 id: 5,
                 title: 'Note-Taker-',
-                name: 'Employee',
+                name: 'Note Taker',
                 image: NoteTaker,
                 logo: logo,
         },
