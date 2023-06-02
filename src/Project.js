@@ -9,16 +9,12 @@ function Project({ projects }) {
     <div>
       <h3 className='title'>Projects</h3>
       <div className='container'>
-        <h3>
-          Hello
-        </h3>
+        <div className='featured-project'>
+          <a href='https://healing.herokuapp.com/' >
+            Featured project
+          </a>
+        </div>
         <div className='row'>
-          <div className='col-12 featured-project mt-5'>
-            <div className='card'>
-              <div href={'https://git.heroku.com/healing.git'} >
-              </div>
-            </div>
-          </div>
           {projects.map((project) => (
             <div className='col-lg-4 col-md-6 col-sm-12 flex effect' key={project.id}>
               <div className='card round'>

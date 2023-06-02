@@ -11,9 +11,7 @@
     margin-top: 50px;
 }
 .featured-project {
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
+  color: blue;
 }
 #text {
     display: flex;
