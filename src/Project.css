@@ -8,11 +8,9 @@
 .container {
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
-.featured-project {
-  color: blue;
-}
+
 #text {
     display: flex;
     justify-content: center;
@@ -40,6 +38,13 @@
     width: 100%;
 
 }
+.responsive {
+    height: 300px;
+    align-self: center;
+    width: 100%;
+
+
+}
 
 .card {
     width: 300px;
@@ -49,6 +54,15 @@
     margin-left: auto;
     border-color: black
 }
+.featured-card {
+    width: 500px;
+    height:40px;
+    margin: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: black
+}
+
 
 @media screen and (max-width: 992px) {
     .container {
