@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.1890c132.css",
-    "main.js": "/My-React-Portfolio/static/js/main.22d8bdf5.js",
+    "main.css": "/My-React-Portfolio/static/css/main.c38c2da6.css",
+    "main.js": "/My-React-Portfolio/static/js/main.2e91d57a.js",
     "static/js/787.56d9acf9.chunk.js": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/weather.png": "/My-React-Portfolio/static/media/weather.79b3f2fa6148c5aff833.png",
     "static/media/me.jpg": "/My-React-Portfolio/static/media/me.09931c716c75c8ecaeb2.jpg",
-    "static/media/searchfour.png": "/My-React-Portfolio/static/media/searchfour.58e8371ff4ecf479cc75.png",
+    "static/media/print.jpg": "/My-React-Portfolio/static/media/print.bd4c163593b5573c1db0.jpg",
+    "static/media/herokuapp.jpg": "/My-React-Portfolio/static/media/herokuapp.ec484d75194e5994d34f.jpg",
     "static/media/seoFour.png": "/My-React-Portfolio/static/media/seoFour.a5403a1531e554c025d2.png",
     "static/media/myteam.png": "/My-React-Portfolio/static/media/myteam.af2a2226d425956bcd9d.png",
     "static/media/newpassword.png": "/My-React-Portfolio/static/media/newpassword.9b8d259c6ad0a5dfc2d2.png",
     "static/media/note.3.png": "/My-React-Portfolio/static/media/note.3.ab7f8cf5fdfdbc2f29b2.png",
     "static/media/linkedIn.png": "/My-React-Portfolio/static/media/linkedIn.820713580bd821c4dc2c.png",
     "index.html": "/My-React-Portfolio/index.html",
-    "main.1890c132.css.map": "/My-React-Portfolio/static/css/main.1890c132.css.map",
-    "main.22d8bdf5.js.map": "/My-React-Portfolio/static/js/main.22d8bdf5.js.map",
+    "main.c38c2da6.css.map": "/My-React-Portfolio/static/css/main.c38c2da6.css.map",
+    "main.2e91d57a.js.map": "/My-React-Portfolio/static/js/main.2e91d57a.js.map",
     "787.56d9acf9.chunk.js.map": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1890c132.css",
-    "static/js/main.22d8bdf5.js"
+    "static/css/main.c38c2da6.css",
+    "static/js/main.2e91d57a.js"
   ]
 }
