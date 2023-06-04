@@ -1,7 +1,7 @@
 .contactme {
     width: 65%;
-    /* margin-right: 10%;
-    margin-left: 10%; */
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .title {
@@ -127,10 +127,11 @@
     .right-box {
         padding-top: 60px;
 
+
     }
 
     .left-box {
-        padding-top: 60px;
+        /* padding-top: 30px; */
         padding-right: 13%;
         padding-left: 13%;
     }
@@ -140,6 +141,7 @@
 
     .right-box {
         padding-top: 60px;
+        margin-bottom: 50px;
     }
 }
 
@@ -151,6 +153,7 @@
 
     .right-box {
         padding-top: 70px;
+        margin-bottom: 50px;
     }
 
     .box .inner {

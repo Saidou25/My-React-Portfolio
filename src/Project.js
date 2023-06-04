@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css';
-import featuredImage from './healing.jpg';
+import featuredImage from './herokuapp.jpg';
 import logo from './logo.png';
 
 
@@ -15,7 +15,7 @@ function Project({ projects }) {
         <div className='row'>
           <div className='col-12'>
             <div className='card featured-card round'>
-              <img className="responsive" src={featuredImage} alt='website dashboard' />
+              <img className="featured-img" src={featuredImage} alt='website dashboard' />
               <div className="card-img-overlay" id="text">
                 <a className='featured-project' href='https://healing.herokuapp.com/' >
                   <h4 className="card-title">Healing</h4>
