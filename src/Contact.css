@@ -126,12 +126,9 @@
 
     .right-box {
         padding-top: 60px;
-
-
     }
 
     .left-box {
-        /* padding-top: 30px; */
         padding-right: 13%;
         padding-left: 13%;
     }
@@ -156,7 +153,8 @@
         margin-bottom: 50px;
     }
 
-    .box .inner {
+    .box 
+    .inner {
         width: 200px;
         height: 150px;
         line-height: 200px;
