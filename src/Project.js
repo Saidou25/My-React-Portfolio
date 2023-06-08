@@ -3,17 +3,15 @@ import './Project.css';
 import featuredImage from './herokuapp.jpg';
 import logo from './logo.png';
 
-
 function Project({ projects }) {
 
   return (
-
-
     <div>
       <h3 className='title'>Projects</h3>
-      <div className='container'>
+      <div className='container-project'>
         <div className='row'>
           <div className='col-12'>
+            <p className='featured-title'>(MERN + GraphQl application)</p>
             <div className='card featured-card round'>
               <img className="featured-img" src={featuredImage} alt='website dashboard' />
               <div className="card-img-overlay" id="text">

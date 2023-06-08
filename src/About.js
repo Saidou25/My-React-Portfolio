@@ -28,7 +28,7 @@ function About() {
               strong work ethic, team work, communication, attention to details, doing the "extra step" and many more.
             </p>
             <p className='story'>
-              Seeking a full stack web developer role to pursue my new passion for building web sites and applications and grow with and within a conpany.
+              Starting a new carreer and seeking an entry level full stack web developer role to pursue my new passion for building web sites, applications and grow with and within a conpany.
             </p>
           </div>
         </div>

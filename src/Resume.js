@@ -9,7 +9,7 @@ function Resume() {
       <div className="title-link">
       <h3 className='title-resume'>My Resume</h3>
       <a className="resume-link" 
-      href="https://drive.google.com/file/d/1CvlrOEYrK5wq1DIKuM3wbF0KWkyCQoTq/view?usp=sharing">(Link to downloadable Resume)</a>
+      href="https://drive.google.com/file/d/1gjAas0oOI66gILxkcmh5p6qh_s5RBn6R/view?usp=sharing">(Link to downloadable Resume)</a>
       </div>
       <h3 className="title-fondation">Foundation</h3>
 
@@ -35,6 +35,7 @@ function Resume() {
 
       <p>Computer science</p>
       <p>MongoDB and NoSQL</p>
+      <p>GraphQl</p>
       <p>Progressive web apps (PWAs)</p>
       <p>React</p>
       <p>MERN</p>

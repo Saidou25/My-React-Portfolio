@@ -1,3 +1,6 @@
+ .container-about {
+margin-bottom: 5%;
+ }
  .title {
      text-align: center;
      height: 65px;
@@ -22,8 +25,6 @@
      max-height: 50%;
      margin-right: auto;
      margin-left: auto;
-     /* margin-top: -20px; */
-
  }
 
  .me {
@@ -43,7 +44,6 @@
          margin-left: auto;
     
         }
-      
     }
     @media screen and (max-width: 991px) {
         
@@ -58,7 +58,6 @@
         }
         
         .about {
-            
             width: 80%;
             margin-right: auto;
             margin-left: auto;
@@ -71,7 +70,6 @@
             margin-right: auto;
             margin-left: auto;
             margin-top: -20px;
-            
         }
        
      .about-me {
