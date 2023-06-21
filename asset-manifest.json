@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.50b442f5.css",
-    "main.js": "/My-React-Portfolio/static/js/main.e3841f0a.js",
+    "main.css": "/My-React-Portfolio/static/css/main.0a6a18bb.css",
+    "main.js": "/My-React-Portfolio/static/js/main.0bc3dc18.js",
     "static/js/787.56d9acf9.chunk.js": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/weather.png": "/My-React-Portfolio/static/media/weather.79b3f2fa6148c5aff833.png",
     "static/media/me.jpg": "/My-React-Portfolio/static/media/me.09931c716c75c8ecaeb2.jpg",
     "static/media/print.jpg": "/My-React-Portfolio/static/media/print.bd4c163593b5573c1db0.jpg",
-    "static/media/herokuapp.jpg": "/My-React-Portfolio/static/media/herokuapp.ec484d75194e5994d34f.jpg",
+    "static/media/healinglandingpage.jpg": "/My-React-Portfolio/static/media/healinglandingpage.61b31b4e70df5a41763d.jpg",
     "static/media/newpassword.png": "/My-React-Portfolio/static/media/newpassword.9b8d259c6ad0a5dfc2d2.png",
     "static/media/note.3.png": "/My-React-Portfolio/static/media/note.3.ab7f8cf5fdfdbc2f29b2.png",
     "static/media/linkedIn.png": "/My-React-Portfolio/static/media/linkedIn.820713580bd821c4dc2c.png",
     "index.html": "/My-React-Portfolio/index.html",
-    "main.50b442f5.css.map": "/My-React-Portfolio/static/css/main.50b442f5.css.map",
-    "main.e3841f0a.js.map": "/My-React-Portfolio/static/js/main.e3841f0a.js.map",
+    "main.0a6a18bb.css.map": "/My-React-Portfolio/static/css/main.0a6a18bb.css.map",
+    "main.0bc3dc18.js.map": "/My-React-Portfolio/static/js/main.0bc3dc18.js.map",
     "787.56d9acf9.chunk.js.map": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50b442f5.css",
-    "static/js/main.e3841f0a.js"
+    "static/css/main.0a6a18bb.css",
+    "static/js/main.0bc3dc18.js"
   ]
 }
