@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import "./Contact.css";
 
-const SERVICE_ID = 'service_3qy8lbc';
+const SERVICE_ID = 'service_ps339pa';
 const TEMPLATE_ID = 'template_s6gfci4';
 const USER_ID = 'RWSohpTYy2zdo_uXO';
 
@@ -25,44 +25,32 @@ const Contact = () => {
 
     const { name, value } = event.target;
 
-    if (name === "user_name") {
-      console.log(value);
+    if (name === "username") {
       setUser(value);
       if (value.length > 0) {
-        console.log(value.length);
-        console.log('good');
         x.style.display = "block";
         y.style.display = "none";
       } else {
-        console.log('no name');
         x.style.display = "none";
         y.style.display = "block";
       }
     }
-    if (name === "user_email") {
-      console.log(value);
+    if (name === "email") {
       setEmail(value);
       if (emailRegex.test(value)) {
-        console.log(value);
-        console.log('good');
         x1.style.display = "block";
         y1.style.display = "none";
       } else {
-        console.log('no name');
         x1.style.display = "none";
         y1.style.display = "block";
       }
     }
     if (name === "message") {
-      console.log(value.length);
       setMessage(value);
       if (value.length > 0) {
-        console.log(value);
-        console.log('good');
         x2.style.display = "block";
         y2.style.display = "none";
       } else {
-        console.log('no name');
         x2.style.display = "none";
         y2.style.display = "block";
       }
@@ -97,7 +85,7 @@ const Contact = () => {
               onChange={handleInputChange}
               type="text"
               value={user}
-              name="user_name"
+              name="username"
               placeholder="Name" />
             <div className='validate'>
               Looks good
@@ -113,7 +101,7 @@ const Contact = () => {
               value={email}
               onChange={handleInputChange}
               type="email"
-              name="user_email"
+              name="email"
               placeholder="example@example.com" />
             <div className='validate1'>
               Looks good
