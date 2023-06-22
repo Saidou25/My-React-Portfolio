@@ -5,12 +5,12 @@ function Navigation({ currentPage, handlePageChange, pages }) {
 
   return (
       <div className='row-top'>
-        <div className='col-lg-4 myname'>
-          <h1>Saidou Monta</h1>
+        <div className='col-lg-6 col-m-6 col-sm-12 myname'>
+          <h1 className='my-name'>Saidou Monta</h1>
         </div>
-        <div className='col-lg-8 navigation'>
+        <div className='col-lg-6 col-m-6 col-sm-12 navigation'>
             {pages.map((page) => (
-              <article key={page} className='nav-item'>
+              <article key={page} className='nav-item m-0'>
                 <a
                   href={`#${page}`}
                   onClick={() => handlePageChange(page)}

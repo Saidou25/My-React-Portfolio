@@ -4,7 +4,7 @@ import About from './About';
 import Resume from './Resume';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
-import './Header.css';
+// import './Header.css';
 const pageComponents = { About, Portfolio, Resume, Contact };
 
 const pages = Object.keys(pageComponents);

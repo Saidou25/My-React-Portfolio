@@ -4,13 +4,8 @@
     margin-top: 50px;
     margin-bottom: 20px;
 }
-/* .container-project {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-    margin-bottom:5%;
-} */
 .featured-project-title {
+
     text-align: center;
 }
 #text {
@@ -43,7 +38,7 @@
     width: 100%;
 }
 .featured-img {
-    height: auto;
+    height: 300px;
     align-self: center;
     width: 100%;
 }
@@ -86,15 +81,6 @@
         margin-left: auto; 
     } 
 }
-/* @media screen and (max-width: 465px) {
-    .featured-card {
-        width: 96%;
-        height: auto;
-        margin: 40px;
-        margin-right: auto;
-        margin-left: auto; 
-    } 
-} */
 
 @media screen and (max-width: 414px) {
 

@@ -1,6 +1,7 @@
  .container-about {
-margin-bottom: 5%;
+     margin-bottom: 5%;
  }
+
  .title {
      text-align: center;
      height: 65px;
@@ -10,7 +11,7 @@ margin-bottom: 5%;
 
  .about-me {
      border-left: 1px solid;
-     border-top-color: black;
+     border-left-color: black;
  }
 
  .about {
@@ -37,57 +38,60 @@ margin-bottom: 5%;
      font-size: 1.2em;
      color: rgb(61, 51, 51);
  }
+
  @media screen and (max-width: 1238px) {
      .about {
          width: 97%;
          margin-right: auto;
          margin-left: auto;
-    
-        }
-    }
-    @media screen and (max-width: 991px) {
-        
-        .about-me {
-            padding-top: 30px;
-        }
-        
-        .title {
-            text-align: center;
-            height: 35px;
-            margin-bottom: 20px;
-        }
-        
-        .about {
-            width: 80%;
-            margin-right: auto;
-            margin-left: auto;
-        }
-        
-        .responsive {
-            display: flex;
-            max-width: 90%;
-            max-height: 90%;
-            margin-right: auto;
-            margin-left: auto;
-            margin-top: -20px;
-        }
-       
+
+     }
+ }
+
+ @media screen and (max-width: 991px) {
+
      .about-me {
-        border-left: none;
-        
-    }
-        .worker {
-            height: 150px;
-            display: flex;
-            align-items: center;
-        }
-        
-        @media screen and (max-width: 415px) {
-            .about {
-                width: 80%;
-                margin-right: auto;
-                margin-left: auto;
-            }
+         padding-top: 30px;
+     }
+
+     .title {
+         text-align: center;
+         height: 35px;
+         margin-bottom: 20px;
+     }
+
+     .about {
+         width: 80%;
+         margin-right: auto;
+         margin-left: auto;
+     }
+
+     .responsive {
+         display: flex;
+         max-width: 90%;
+         max-height: 90%;
+         margin-right: auto;
+         margin-left: auto;
+         margin-top: -20px;
+     }
+
+     .about-me {
+         border-left: none;
+
+     }
+
+     .worker {
+         height: 150px;
+         display: flex;
+         align-items: center;
+     }
+
+     @media screen and (max-width: 415px) {
+         .about {
+             width: 80%;
+             margin-right: auto;
+             margin-left: auto;
+         }
      }
 
      @media screen and (max-width: 390px) {

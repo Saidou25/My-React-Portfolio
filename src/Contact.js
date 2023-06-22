@@ -91,7 +91,7 @@ const Contact = () => {
       <div className="row contact">
         <div className="col-lg-6 left-box">
           <form ref={form} onSubmit={sendEmail} >
-            <label className="form-label">Name</label>
+            <label className="form-label text-primary">Name</label>
             <input
               className="form-control"
               onChange={handleInputChange}
@@ -107,7 +107,7 @@ const Contact = () => {
               required
               <i className="fa-solid fa-check"></i>
             </div>
-            <label className="form-label">Email</label>
+            <label className="form-label text-primary">Email</label>
             <input
               className="form-control"
               value={email}
@@ -123,7 +123,7 @@ const Contact = () => {
               required
               <i className="fa-solid fa-check"></i>
             </div>
-            <label className="form-label">Message</label>
+            <label className="form-label text-primary">Message</label>
             <textarea
               className="form-control message"
               name="message"

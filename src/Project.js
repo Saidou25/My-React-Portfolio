@@ -7,13 +7,13 @@ function Project({ projects }) {
 
   return (
     <div>
-      <h3 className='title project-title'>Projects</h3>
+      <h3 className='title project-title text-primary'>Projects</h3>
       <div className='container-project'>
-        <div className='row g-0 project-row'>
+        <div className='row g-0 project-row pb-3'>
           <div className='col-12'>
-            <div className='card g-0 featured-card'>
+            <div className='card g-0 border-0 round featured-card'>
               <div className='card-header featured-project-title bg-primary text-light'>
-                <p className='text-light'>MERN + GraphQl Web Site</p>
+                <p className='text-light mt-3'>MERN + GraphQl Web Site</p>
               </div>
               <div className='card-body'>
                 <img className="featured-img" src={featuredImage} alt='website dashboard' />
@@ -32,7 +32,7 @@ function Project({ projects }) {
           </div>
           {projects.map((project) => (
             <div className='col-lg-4 col-md-6 col-sm-12' key={project.id}>
-              <div className='card round'>
+              <div className='card g-0 border-0 round'>
                 <div className='card-header featured-project-title bg-primary'>
                   {project.name === 'weather' && (
                     <>

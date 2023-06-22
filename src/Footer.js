@@ -7,9 +7,9 @@ function Footer() {
 
   return (
     <footer className="footer">
-        <a href="https://github.com/Saidou25">
+        {/* <a href="https://github.com/Saidou25"> */}
           <img src={logo} className='github' alt="minicat"></img>
-        </a>
+        {/* </a> */}
         {/* <a href="https://github.com/Saidou25">
         <img src={twitter} alt="minibird"></img>
       </a> */}
