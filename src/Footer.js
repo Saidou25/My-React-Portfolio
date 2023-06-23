@@ -7,19 +7,17 @@ function Footer() {
 
   return (
     <footer className="footer">
-        {/* <a href="https://github.com/Saidou25"> */}
-          <img src={logo} className='github' alt="minicat"></img>
-        {/* </a> */}
-        {/* <a href="https://github.com/Saidou25">
-        <img src={twitter} alt="minibird"></img>
-      </a> */}
-        <a href="https://www.linkedin.com/feed/">
-          <img src={linkedIn} className='linkedIn' alt="letters l n"></img>
-        </a>
-     
+      <a href="https://github.com/Saidou25">
+        <img src={logo} className='github' alt="minicat"></img>
+      </a>
+      <a href="https://www.linkedin.com/in/saidou-monta?trk=profile-badge">
+        <img src={linkedIn} className='linkedIn' alt="letters linkedIn"></img>
+      </a>
     </footer>
 
   );
 };
+
+
 
 export default Footer;
