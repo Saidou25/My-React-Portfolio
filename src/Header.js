@@ -11,7 +11,7 @@ const pages = Object.keys(pageComponents);
 
 const Header = () => {
 
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('Portfolio');
 
 
     const renderPage = () => {
@@ -24,11 +24,12 @@ const Header = () => {
 
             return <Contact />
         }
-        if (currentPage === 'Portfolio') {
+        if (currentPage === 'About') {
 
-            return <Portfolio />;
+            return <About />;
         }
-        return <About />;
+      
+        return <Portfolio />;
 
     };
 
