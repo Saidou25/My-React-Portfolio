@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.ce1389e0.css",
-    "main.js": "/My-React-Portfolio/static/js/main.faf0101f.js",
+    "main.css": "/My-React-Portfolio/static/css/main.b4dd5ee4.css",
+    "main.js": "/My-React-Portfolio/static/js/main.138d333a.js",
     "static/js/787.56d9acf9.chunk.js": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/weather.png": "/My-React-Portfolio/static/media/weather.79b3f2fa6148c5aff833.png",
     "static/media/me.jpg": "/My-React-Portfolio/static/media/me.09931c716c75c8ecaeb2.jpg",
     "static/media/print.jpg": "/My-React-Portfolio/static/media/print.bd4c163593b5573c1db0.jpg",
     "static/media/healinglandingpage.jpg": "/My-React-Portfolio/static/media/healinglandingpage.61b31b4e70df5a41763d.jpg",
+    "static/media/pythondashboard.png": "/My-React-Portfolio/static/media/pythondashboard.7914cb191f6fc06773b1.png",
     "static/media/newpassword.png": "/My-React-Portfolio/static/media/newpassword.9b8d259c6ad0a5dfc2d2.png",
     "static/media/note.3.png": "/My-React-Portfolio/static/media/note.3.ab7f8cf5fdfdbc2f29b2.png",
     "static/media/linkedIn.png": "/My-React-Portfolio/static/media/linkedIn.820713580bd821c4dc2c.png",
     "index.html": "/My-React-Portfolio/index.html",
-    "main.ce1389e0.css.map": "/My-React-Portfolio/static/css/main.ce1389e0.css.map",
-    "main.faf0101f.js.map": "/My-React-Portfolio/static/js/main.faf0101f.js.map",
+    "main.b4dd5ee4.css.map": "/My-React-Portfolio/static/css/main.b4dd5ee4.css.map",
+    "main.138d333a.js.map": "/My-React-Portfolio/static/js/main.138d333a.js.map",
     "787.56d9acf9.chunk.js.map": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce1389e0.css",
-    "static/js/main.faf0101f.js"
+    "static/css/main.b4dd5ee4.css",
+    "static/js/main.138d333a.js"
   ]
 }
