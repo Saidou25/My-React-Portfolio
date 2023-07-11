@@ -5,8 +5,10 @@
     margin-bottom: 20px;
 }
 .featured-project-title {
-
     text-align: center;
+}
+.featured-project {
+    text-decoration: none;
 }
 #text {
     display: flex;
@@ -57,7 +59,9 @@
     margin-right: auto;
     margin-left: auto; 
 } 
-
+.link {
+    text-decoration: none;
+}
 
 @media screen and (max-width: 992px) {
     .container {
