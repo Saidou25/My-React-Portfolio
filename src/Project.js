@@ -2,6 +2,7 @@ import React from "react";
 import "./Project.css";
 import featuredImage from "./healinglandingpage.jpg";
 import pythonApp from "./pythondashboard.png";
+import tmiworld from "./tmiworld.png";
 import logo from "./logo.png";
 
 function Project({ projects }) {
@@ -10,33 +11,66 @@ function Project({ projects }) {
       <h3 className="title project-title text-primary">Projects</h3>
       <div className="container-project">
         <div className="row g-0 project-row pb-3">
+
+
           <div className="col-12">
             <div className="card g-0 border-0 round featured-card">
               <div className="card-header featured-project-title bg-primary text-light">
-                <p className="text-light mt-3">MERN + GraphQl Web Site</p>
+                <p className="text-light mt-3">MERN + GraphQl + Firebase  Web Site</p>
               </div>
               <div className="card-body">
                 <img
                   className="featured-img"
-                  src={featuredImage}
-                  alt="website dashboard"
+                  src={tmiworld}
+                  alt="website landing page"
                 />
                 <div className="card-img-overlay" id="text">
                   <a
                     className="featured-project"
-                    href="https://healing.herokuapp.com/"
+                    href="https://tmiworld-5f7c04c2f838.herokuapp.com/"
                   >
-                    <h4 className="card-title">Healing</h4>
+                    <h4 className="card-title">TMIWORLD</h4>
                   </a>
-                  <a href="https://github.com/Saidou25/Healing">
+                  {/* <a href="https://github.com/Saidou25/Healing">
                     <img className="logo" id="text" src={logo} alt="minicat" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-sm-12">
+         
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="card g-0 border-0 round">
+                <div className="card-header featured-project-title bg-primary">
+                <p className="card-header text-light">
+                        MERN + GraphQl website
+                      </p>
+                </div>
+                <div className="card-body">
+                  <img
+                    className="image"
+                    src={featuredImage}
+                    alt="flowers"
+                  />
+                  <div className="card-img-overlay" id="text">
+                    <a  className="link" href={"https://github.com/Saidou25/Healing"}>
+                      <h4 className="card-title">{"Healing"}</h4>
+                    </a>
+                    <a href={"https://github.com/Saidou25/Healing"}>
+                      <img
+                        className="logo"
+                        id="text"
+                        src={logo}
+                        alt="minicat"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card g-0 border-0 round">
               <div className="card-header featured-project-title bg-primary">
                 <p className="card-header text-light">
