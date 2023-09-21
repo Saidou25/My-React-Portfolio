@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.b4dd5ee4.css",
-    "main.js": "/My-React-Portfolio/static/js/main.138d333a.js",
+    "main.css": "/My-React-Portfolio/static/css/main.df66611f.css",
+    "main.js": "/My-React-Portfolio/static/js/main.53fdf1de.js",
     "static/js/787.56d9acf9.chunk.js": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/weather.png": "/My-React-Portfolio/static/media/weather.79b3f2fa6148c5aff833.png",
+    "static/media/tmiworld.png": "/My-React-Portfolio/static/media/tmiworld.8a74a78e32d226eceef2.png",
     "static/media/me.jpg": "/My-React-Portfolio/static/media/me.09931c716c75c8ecaeb2.jpg",
     "static/media/print.jpg": "/My-React-Portfolio/static/media/print.bd4c163593b5573c1db0.jpg",
     "static/media/healinglandingpage.jpg": "/My-React-Portfolio/static/media/healinglandingpage.61b31b4e70df5a41763d.jpg",
@@ -12,12 +13,12 @@
     "static/media/note.3.png": "/My-React-Portfolio/static/media/note.3.ab7f8cf5fdfdbc2f29b2.png",
     "static/media/linkedIn.png": "/My-React-Portfolio/static/media/linkedIn.820713580bd821c4dc2c.png",
     "index.html": "/My-React-Portfolio/index.html",
-    "main.b4dd5ee4.css.map": "/My-React-Portfolio/static/css/main.b4dd5ee4.css.map",
-    "main.138d333a.js.map": "/My-React-Portfolio/static/js/main.138d333a.js.map",
+    "main.df66611f.css.map": "/My-React-Portfolio/static/css/main.df66611f.css.map",
+    "main.53fdf1de.js.map": "/My-React-Portfolio/static/js/main.53fdf1de.js.map",
     "787.56d9acf9.chunk.js.map": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4dd5ee4.css",
-    "static/js/main.138d333a.js"
+    "static/css/main.df66611f.css",
+    "static/js/main.53fdf1de.js"
   ]
 }
