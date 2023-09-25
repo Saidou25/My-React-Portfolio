@@ -38,6 +38,7 @@ function Resume() {
       <p className="description text-primary">Progressive web apps (PWAs)</p>
       <p className="description text-primary">React</p>
       <p className="description text-primary">MERN</p>
+      <p className="description text-primary">Firebase</p>
     </div>
   );
 }
