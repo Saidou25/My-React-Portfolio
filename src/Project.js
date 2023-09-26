@@ -54,7 +54,7 @@ function Project({ projects }) {
                     alt="flowers"
                   />
                   <div className="card-img-overlay" id="text">
-                    <a  className="link" href={"https://github.com/Saidou25/Healing"}>
+                    <a  className="link" href={"https://healing.herokuapp.com/"}>
                       <h4 className="card-title">{"Healing"}</h4>
                     </a>
                     <a href={"https://github.com/Saidou25/Healing"}>

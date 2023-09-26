@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import me from "./me.jpg";
+import me from "./sycroped.jpeg";
 
 function About() {
   return (

@@ -1,7 +1,7 @@
 .container-resume {
-    height: 710px;
+    height: 100vh;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     margin-right: auto;
     margin-left: auto;
     overflow: scroll;
