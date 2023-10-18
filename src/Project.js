@@ -31,9 +31,9 @@ function Project({ projects }) {
                   >
                     <h4 className="card-title">TMIWORLD</h4>
                   </a>
-                  {/* <a href="https://github.com/Saidou25/Healing">
+                  <a href="https://github.com/Saidou25/Meditating-neighbor">
                     <img className="logo" id="text" src={logo} alt="minicat" />
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </div>
