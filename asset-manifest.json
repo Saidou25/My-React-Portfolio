@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.72e0325d.css",
-    "main.js": "/My-React-Portfolio/static/js/main.3600ae87.js",
+    "main.css": "/My-React-Portfolio/static/css/main.4c2fb46b.css",
+    "main.js": "/My-React-Portfolio/static/js/main.91447178.js",
     "static/js/787.56d9acf9.chunk.js": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/sycroped.jpeg": "/My-React-Portfolio/static/media/sycroped.6d7102d30c2e7e829aaf.jpeg",
     "static/media/weather.png": "/My-React-Portfolio/static/media/weather.79b3f2fa6148c5aff833.png",
@@ -13,12 +13,12 @@
     "static/media/note.3.png": "/My-React-Portfolio/static/media/note.3.ab7f8cf5fdfdbc2f29b2.png",
     "static/media/linkedIn.png": "/My-React-Portfolio/static/media/linkedIn.820713580bd821c4dc2c.png",
     "index.html": "/My-React-Portfolio/index.html",
-    "main.72e0325d.css.map": "/My-React-Portfolio/static/css/main.72e0325d.css.map",
-    "main.3600ae87.js.map": "/My-React-Portfolio/static/js/main.3600ae87.js.map",
+    "main.4c2fb46b.css.map": "/My-React-Portfolio/static/css/main.4c2fb46b.css.map",
+    "main.91447178.js.map": "/My-React-Portfolio/static/js/main.91447178.js.map",
     "787.56d9acf9.chunk.js.map": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72e0325d.css",
-    "static/js/main.3600ae87.js"
+    "static/css/main.4c2fb46b.css",
+    "static/js/main.91447178.js"
   ]
 }
