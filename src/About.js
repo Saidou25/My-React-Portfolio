@@ -1,18 +1,18 @@
 import React from "react";
-import "./About.css";
 import me from "./sycroped.jpeg";
+import "./About.css";
 
 function About() {
   return (
     <div className="container-about">
       <div className="about">
         <h3 className="title">About Me</h3>
-        <div className="row">
+        <div className="row row-about">
           <div className="col-lg-5 col-md-12 worker">
             <img src={me} className="responsive me" alt="Workerme"></img>
           </div>
           <div className="col-lg-7 col-md-12 flex about-me">
-            <p className="story text-primary">
+            <p className="story">
               As a native French speaker who has called the United States home
               for over 15 years, I bring a unique blend of cultural perspectives
               and experiences to the table. With a background in competitive
@@ -23,13 +23,13 @@ function About() {
               the bustling heart of New York City. Starting as a dishwasher, I
               tirelessly worked my way up the ranks to become a general manager.
             </p>
-            <p className="story text-primary">
+            <p className="story">
               Throughout my diverse career path, I've honed a wide array of
               skills, including adaptability, a relentless work ethic, effective
               teamwork, strong communication abilities, meticulous attention to
               detail, and a willingness to go the extra mile to achieve success.{" "}
             </p>
-            <p className="story text-primary">
+            <p className="story">
               Driven by a newfound passion for web development, I am embarking
               on a new career journey. I am highly motivated and eager to take
               on an entry-level full-stack web developer role. My goal is to
@@ -38,7 +38,7 @@ function About() {
               applications, and continuously evolve as a professional within a
               forward-thinking company.{" "}
             </p>
-            <p className="story text-primary">
+            <p className="story">
               I am excited about the opportunities that lie ahead and look
               forward to the challenges and growth that come with pursuing my
               passion for web development.{" "}

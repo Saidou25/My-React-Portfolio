@@ -2,22 +2,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: fixed;
-    bottom: 0;
-    left: 0; */
     width: 100%;
-    /* z-index: 1; */
 }
-
+.main-footer {
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
 .linkedIn {
-    max-width: 45px;
+    max-width: 65px;
     margin-bottom: 20px;
+    background-color: rgba(238, 225, 225, 0.515) !important;
+    border-radius: 50%;
 }
 
 .github {
     margin-right: 7px;
-    max-width: 45px;
+    max-width: 65px;
     margin-bottom: 20px;
+    background-color: black !important;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 991px) {

@@ -1,165 +1,165 @@
 .contactme {
-    height: 800px;
-    width: 65%;
-    margin-right: 10%;
-    margin-left: 10%;
+  height: 800px;
+  width: 65%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .title {
-    text-align: center;
-    height: 65px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+  text-align: center;
+  height: 65px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .left-box {
-    margin-top: 7%;
-    margin-bottom: 5%;
-    padding-left: 13%;
-    padding-right: 13%;
-
+  margin-top: 7%;
+  margin-bottom: 5%;
+  padding-left: 13%;
+  padding-right: 13%;
 }
 
 .validate,
 .validate2,
 .validate1 {
-    display: none;
-    color: green;
-    margin-top: 7px;
+  display: none;
+  color: green;
+  margin-top: 7px;
 }
 
 .invalidate,
 .invalidate2,
 .invalidate1 {
-    margin-top: 7px;
-    color: red;
-
+  margin-top: 7px;
+  color: red;
 }
 
 .right-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 7%;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7%;
 }
 
 .form-control {
-    font-style: oblique;
+  font-style: oblique;
 }
-
-
+.form-title {
+  color: rgba(238, 225, 225, 0.515);
+}
 .form-label {
-    margin: 10px;
-    font-size: 1.2em;
-    color: rgb(61, 51, 51);
+  margin: 10px;
+  font-size: 1.2em;
+  color: rgba(238, 225, 225, 0.515);
 }
 
 .Message {
-    display: flex;
-    overflow: hidden;
-    height: 150px;
+  display: flex;
+  overflow: hidden;
+  height: 150px;
 }
 
-.btn-primary {
-    margin-top: 50px;
+.btn-submit {
+  margin-top: 50px;
+  background-color: black !important;
+}
+.btn-submit:hover {
+  background-color: rgb(69, 65, 65) !important;
+  color: black !important;
 }
 
 .box {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
 }
 
 .box .inner {
-    width: 400px;
-    height: 200px;
+  width: 400px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 4em;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.box .inner:first-child {
+  background-color: rgb(245, 233, 214);
+  color: black;
+  transform-origin: right;
+  transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+  background-color: rgb(201, 148, 2);
+  color: rgb(70, 43, 2);
+  transform-origin: left;
+  transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+  position: absolute;
+  animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+  animation-delay: 2.5s;
+  left: -100%;
+}
+
+@keyframes marquee {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .contactme {
+    height: auto;
+    margin-bottom: 5%;
+  }
+  .right-box {
+    padding-top: 60px;
+  }
+
+  .left-box {
+    padding-right: 13%;
+    padding-left: 13%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .right-box {
+    padding-top: 60px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .btn-primary {
+    margin-top: 40px;
+  }
+
+  .right-box {
+    padding-top: 70px;
+    margin-bottom: 50px;
+  }
+
+  .box .inner {
+    width: 200px;
+    height: 150px;
     line-height: 200px;
     font-size: 4em;
     font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
-}
-
-.box .inner:first-child {
-    background-color: rgb(245, 233, 214);
-    color: black;
-    transform-origin: right;
-    transform: perspective(100px) rotateY(-15deg);
-}
-
-.box .inner:last-child {
-    background-color: rgb(201, 148, 2);
-    color: rgb(70, 43, 2);
-    transform-origin: left;
-    transform: perspective(100px) rotateY(15deg);
-}
-
-.box .inner span {
-    position: absolute;
+    display: flex;
     animation: marquee 5s linear infinite;
-}
-
-.box .inner:first-child span {
-    animation-delay: 2.5s;
-    left: -100%;
-}
-
-@keyframes marquee {
-    from {
-        left: 100%;
-    }
-
-    to {
-        left: -100%;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .contactme {
-        height: auto;
-        margin-bottom: 5%;
-    }
-    .right-box {
-        padding-top: 60px;
-    }
-
-    .left-box {
-        padding-right: 13%;
-        padding-left: 13%;
-    }
-}
-
-@media screen and (max-width: 414px) {
-
-    .right-box {
-        padding-top: 60px;
-        margin-bottom: 50px;
-    }
-}
-
-@media screen and (max-width: 390px) {
-
-    .btn-primary {
-        margin-top: 40px;
-    }
-
-    .right-box {
-        padding-top: 70px;
-        margin-bottom: 50px;
-    }
-
-    .box 
-    .inner {
-        width: 200px;
-        height: 150px;
-        line-height: 200px;
-        font-size: 4em;
-        font-weight: bold;
-        white-space: nowrap;
-        overflow: hidden;
-        display: flex;
-        animation: marquee 5s linear infinite;
-        align-items: center;
-    }
+    align-items: center;
+  }
 }

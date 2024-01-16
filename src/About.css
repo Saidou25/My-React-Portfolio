@@ -7,11 +7,11 @@
      height: 65px;
      margin-top: 50px;
      margin-bottom: 20px;
+     color: rgb(255, 255, 255) !important;
  }
 
- .about-me {
-     border-left: 1px solid;
-     border-left-color: black;
+ .row-about {
+   padding-top: 10%;
  }
 
  .about {
@@ -27,17 +27,19 @@
      margin-right: auto;
      margin-left: auto;
      border-radius: 50%;
+     aspect-ratio: 1 / 1;
+     object-fit: cover;
  }
-
  /* .me {
      border-radius: 50%;
- } */
+ }  */
 
  .story {
      padding-right: 10px;
      padding-left: 10px;
-     font-size: 1.2em;
-     color: rgb(61, 51, 51);
+     font-size: 1.4em;
+     color: rgba(241, 239, 239, 0.563);
+    font-style: normal;
  }
 
  @media screen and (max-width: 1238px) {

@@ -81,9 +81,10 @@ const Contact = () => {
     <div className="container contactme">
       <h3 className="title">Contact Me</h3>
       <div className="row contact">
+        <h3 className="form-title my-5">Please fill up the form below</h3>
         <div className="col-lg-6 left-box">
           <form ref={form} onSubmit={sendEmail}>
-            <label className="form-label text-primary">Name</label>
+            <label className="form-label">Name</label>
             <input
               className="form-control"
               onChange={handleInputChange}
@@ -100,7 +101,7 @@ const Contact = () => {
               required
               <i className="fa-solid fa-check"></i>
             </div>
-            <label className="form-label text-primary mt-5">Email</label>
+            <label className="form-label mt-5">Email</label>
             <input
               className="form-control"
               value={email}
@@ -117,7 +118,7 @@ const Contact = () => {
               required
               <i className="fa-solid fa-check"></i>
             </div>
-            <label className="form-label text-primary mt-5">Message</label>
+            <label className="form-label mt-5">Message</label>
             <textarea
               className="form-control message"
               name="message"
@@ -138,7 +139,7 @@ const Contact = () => {
                 <p className="message-p bg-danger text-light p-3">{errorMessage}</p>
               </div>
             )}
-            <button className="btn btn-primary" type="submit" value="Send">
+            <button className="btn btn-submit" type="submit" value="Send">
               Submit
             </button>
           </form>

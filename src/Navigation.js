@@ -14,8 +14,9 @@ function Navigation({ currentPage, handlePageChange, pages }) {
                 <a
                   href={`#${page}`}
                   onClick={() => handlePageChange(page)}
-                  className={currentPage === page ? 'nav-link-active text-dark' : 'nav-link'}
+                  className={currentPage === page ? 'nav-link-active text-light' : 'nav-link'}
                   id='nav-link'
+                  style={{ textDecoration: "none" }}
                 >
                   {page}
                 </a>

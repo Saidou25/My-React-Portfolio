@@ -15,13 +15,16 @@
     height: 65px;
     margin-top: 50px;
     margin-bottom: -30px;
+    color: rgb(255, 255, 255);
 }
 .title-fondation {
     margin-bottom: 40px;
     margin-top: 80px;
+    color: rgb(255, 255, 255);
 }
 .titles {
     margin: 40px;
+    color: rgb(255, 255, 255);
 }
 
 .resume-link {
@@ -29,11 +32,13 @@
     color: rgb(61, 51, 51);
     padding-top: 10px;
     font-style: oblique;
+    color: rgba(241, 239, 239, 0.563);
 }
 
-p {
+.description {
     font-size: 1.2em;
     color: rgb(61, 51, 51);
+    color: rgba(241, 239, 239, 0.563);
 }
 
 /* @media screen and (max-width: 390px) {
