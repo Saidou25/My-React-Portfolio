@@ -2,27 +2,26 @@
   display: flex;
   color: black;
   align-items: center;
-  height: 150px;
+  height: 350px;
 }
-
-.myname {
+#nav-link {
+  padding-right: 70px;
+}
+.my-name {
   display: flex;
   align-items: center;
   height: 150px;
-}
-
-.my-name {
   font-size: 3rem;
   margin-left: 20px;
   color: rgba(238, 225, 225, 0.515);
-  font-size: 4.3rem;
+  font-size: 4vw;
   font-family: "Times New Roman", Times, serif;
 }
 
 .nav-item {
   color: rgba(238, 225, 225, 0.515);
   font-size: 1.25rem;
-  padding: 8px;
+  /* padding: 8px; */
   /* text-decoration: none !important; */
 }
 .nav-item:hover {
