@@ -1,4 +1,4 @@
-.row-top {
+.row-myname {
   display: flex;
   color: black;
   align-items: center;
@@ -17,7 +17,11 @@
   font-size: 4vw;
   font-family: "Times New Roman", Times, serif;
 }
-
+.navigation {
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
 .nav-item {
   color: rgba(238, 225, 225, 0.515);
   font-size: 1.25rem;
@@ -27,12 +31,14 @@
 .nav-item:hover {
   color: rgba(255, 255, 255, 0.974);
 }
-.navigation {
-  padding-right: 15px;
-  display: flex;
-  justify-content: flex-end;
-}
-@media screen and (max-width: 990px) {
+
+@media screen and (max-width: 992px) {
+  .nav-container {
+    margin-bottom: 15%;
+  }
+  .row-myname {
+    height: 200px;
+  }
   .row-top {
     display: flex;
     flex-direction: column;
@@ -46,17 +52,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
   }
+  /* .row-navigation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  } */
   .myname {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    height: 100px;
+    height: 150px;
+    
   }
   .nav-item {
     padding: 8px;
-    /* color: blue; */
   }
 }
 @media screen and (max-width: 660px) {
@@ -94,5 +104,10 @@
 @media screen and (max-width: 414px) {
   .nav-item {
     font-size: 1rem;
+  }
+  .navigation {
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
   }
 }

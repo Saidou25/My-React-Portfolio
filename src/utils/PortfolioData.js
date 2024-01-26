@@ -44,12 +44,12 @@ export const gitHubProjects = [
 ];
 export const herokuProjects = [
   {
-    id: 6,
-    title: "Python Full Stack Project",
-    urlTitle: "python-comments-votes-46685824ef0e",
-    name: "Comnents and votes",
-    repoUrl: "python-newsfeed",
-    image: pythonApp,
+    id: 8,
+    title: "MERN + GraphQl + Firebase Web Site",
+    urlTitle: "tmiworld-5f7c04c2f838",
+    repoUrl: "Meditating-neighbor",
+    name: "tmiworld",
+    image: tmiworld,
     logo: logo,
   },
   {
@@ -61,15 +61,15 @@ export const herokuProjects = [
     image: featuredImage,
     logo: logo,
   },
-    {
-      id: 8,
-      title: "MERN + GraphQl + Firebase Web Site",
-      urlTitle: "tmiworld-5f7c04c2f838",
-      repoUrl: "Meditating-neighbor",
-      name: "tmiworld",
-      image: tmiworld,
-      logo: logo,
-    },
+  {
+    id: 6,
+    title: "Python Full Stack Project",
+    urlTitle: "python-comments-votes-46685824ef0e",
+    name: "Comnents and votes",
+    repoUrl: "python-newsfeed",
+    image: pythonApp,
+    logo: logo,
+  },
 ];
 export const featuredProject = {
   id: 1,
