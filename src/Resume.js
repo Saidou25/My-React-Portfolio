@@ -32,12 +32,13 @@ function Resume() {
 
       <h3 className="titles">Performance</h3>
 
+      <p className="description">React</p>
+      <p className="description">MERN</p>
       <p className="description">Computer science</p>
+      <p className="description">Redux</p>
       <p className="description">MongoDB and NoSQL</p>
       <p className="description">GraphQl</p>
       <p className="description">Progressive web apps (PWAs)</p>
-      <p className="description">React</p>
-      <p className="description">MERN</p>
       <p className="description">Firebase</p>
     </div>
   );
