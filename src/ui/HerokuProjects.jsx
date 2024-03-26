@@ -4,7 +4,8 @@ import '../Project.css';
 
 export default function HerokuProjects({ herokuProjects }) {
   return (
-    <main className="row g-0 herokuProjects-row pb-3">
+    <main className="row g-0 herokuProjects-row"
+    style={{ width: "92%", margin: "auto" }}>
       {herokuProjects &&
         herokuProjects.map((project) => (
           <div className="col-lg-4 col-md-6 col-sm-12" key={project.name}>

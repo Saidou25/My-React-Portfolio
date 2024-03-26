@@ -4,7 +4,7 @@ import team from "./../myteam.png";
 import print from "./../print.jpg";
 import logo from "./../logo.png";
 import pythonApp from "./../pythondashboard.png";
-import featuredImage from "./../healinglandingpage.jpg";
+import featuredImage from "./../readmeLanding.png";
 import pizza from "./../menu.jpg"
 import tmiworld from "./../tmiworld.png"
 
