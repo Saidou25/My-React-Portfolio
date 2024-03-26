@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/My-React-Portfolio/static/css/main.362bd262.css",
-    "main.js": "/My-React-Portfolio/static/js/main.9f2e00f5.js",
+    "main.js": "/My-React-Portfolio/static/js/main.0514113c.js",
     "static/js/787.56d9acf9.chunk.js": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/weather.png": "/My-React-Portfolio/static/media/weather.79b3f2fa6148c5aff833.png",
     "static/media/tmiworld.png": "/My-React-Portfolio/static/media/tmiworld.8a74a78e32d226eceef2.png",
+    "static/media/readmeLanding.png": "/My-React-Portfolio/static/media/readmeLanding.071b4b9b77ee915c352c.png",
     "static/media/print.jpg": "/My-React-Portfolio/static/media/print.bd4c163593b5573c1db0.jpg",
     "static/media/sycropedfinal.jpeg": "/My-React-Portfolio/static/media/sycropedfinal.a68a4ccebd8cd699da74.jpeg",
     "static/media/backgrounddark.jpg": "/My-React-Portfolio/static/media/backgrounddark.8737e5b2cda29a1b8ed2.jpg",
-    "static/media/healinglandingpage.jpg": "/My-React-Portfolio/static/media/healinglandingpage.61b31b4e70df5a41763d.jpg",
     "static/media/menu.jpg": "/My-React-Portfolio/static/media/menu.1763ca2e15f3d8f6f177.jpg",
     "static/media/pythondashboard.png": "/My-React-Portfolio/static/media/pythondashboard.7914cb191f6fc06773b1.png",
     "static/media/myteam.png": "/My-React-Portfolio/static/media/myteam.af2a2226d425956bcd9d.png",
@@ -17,11 +17,11 @@
     "static/media/linkedIn.png": "/My-React-Portfolio/static/media/linkedIn.820713580bd821c4dc2c.png",
     "index.html": "/My-React-Portfolio/index.html",
     "main.362bd262.css.map": "/My-React-Portfolio/static/css/main.362bd262.css.map",
-    "main.9f2e00f5.js.map": "/My-React-Portfolio/static/js/main.9f2e00f5.js.map",
+    "main.0514113c.js.map": "/My-React-Portfolio/static/js/main.0514113c.js.map",
     "787.56d9acf9.chunk.js.map": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.362bd262.css",
-    "static/js/main.9f2e00f5.js"
+    "static/js/main.0514113c.js"
   ]
 }
