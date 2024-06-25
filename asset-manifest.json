@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-React-Portfolio/static/css/main.09623f4c.css",
-    "main.js": "/My-React-Portfolio/static/js/main.f24d20df.js",
+    "main.js": "/My-React-Portfolio/static/js/main.c3cd470b.js",
     "static/js/787.56d9acf9.chunk.js": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/weather.png": "/My-React-Portfolio/static/media/weather.79b3f2fa6148c5aff833.png",
     "static/media/tmiworld.png": "/My-React-Portfolio/static/media/tmiworld.8a74a78e32d226eceef2.png",
@@ -13,15 +13,14 @@
     "static/media/pythondashboard.png": "/My-React-Portfolio/static/media/pythondashboard.7914cb191f6fc06773b1.png",
     "static/media/myteam.png": "/My-React-Portfolio/static/media/myteam.af2a2226d425956bcd9d.png",
     "static/media/newpassword.png": "/My-React-Portfolio/static/media/newpassword.9b8d259c6ad0a5dfc2d2.png",
-    "static/media/note.3.png": "/My-React-Portfolio/static/media/note.3.ab7f8cf5fdfdbc2f29b2.png",
     "static/media/linkedIn.png": "/My-React-Portfolio/static/media/linkedIn.820713580bd821c4dc2c.png",
     "index.html": "/My-React-Portfolio/index.html",
     "main.09623f4c.css.map": "/My-React-Portfolio/static/css/main.09623f4c.css.map",
-    "main.f24d20df.js.map": "/My-React-Portfolio/static/js/main.f24d20df.js.map",
+    "main.c3cd470b.js.map": "/My-React-Portfolio/static/js/main.c3cd470b.js.map",
     "787.56d9acf9.chunk.js.map": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09623f4c.css",
-    "static/js/main.f24d20df.js"
+    "static/js/main.c3cd470b.js"
   ]
 }
