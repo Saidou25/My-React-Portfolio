@@ -12,7 +12,7 @@ export default function HerokuProjects({ herokuProjects }) {
             <div className="card g-0 border-0 round">
               <div className="card-header featured-project-title">
                 <p className="text-light">{project.title}</p>
-                {project.title.length < 31 && <br />}
+                {project.title.length < 31 && <br />}(personal project)
               </div>
               <div className="card-body card-body-overlay">
                 <img

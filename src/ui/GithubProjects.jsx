@@ -14,7 +14,7 @@ export default function githubProjects({ gitHubProjects }) {
           <div className="card project-cards g-0 border-0">
             <div className="card-header text-light featured-project-title">
               <p className="text-light">{project.cardHeader}</p>
-              {project.cardHeader.length < 31 && <br />}
+              {project.cardHeader.length < 31 && <br />}(bootcamp project)
             </div>
             <div className="card-body card-body-overlay">
               <img className="image" src={project.image} alt={project.title} />
