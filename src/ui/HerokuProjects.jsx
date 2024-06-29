@@ -1,18 +1,20 @@
 import React from "react";
 import logo from "../logo.png";
-import '../Project.css';
+import "../Project.css";
 
 export default function HerokuProjects({ herokuProjects }) {
   return (
-    <main className="row g-0 herokuProjects-row"
-    style={{ width: "92%", margin: "auto" }}>
+    <main
+      className="row g-0 herokuProjects-row"
+      style={{ width: "92%", margin: "auto" }}
+    >
       {herokuProjects &&
         herokuProjects.map((project) => (
           <div className="col-lg-4 col-md-6 col-sm-12" key={project.name}>
             <div className="card g-0 border-0 round">
               <div className="card-header featured-project-title">
                 <p className="text-light">{project.title}</p>
-                {project.title.length < 31 && <br />}(personal project)
+                {project.title.length < 31 && <br />}
               </div>
               <div className="card-body card-body-overlay">
                 <img
@@ -32,6 +34,7 @@ export default function HerokuProjects({ herokuProjects }) {
                   </a>
                 </div>
               </div>
+              <div class="project-type bg-black text-secondary py-3 ps-2">(personal project)</div>
             </div>
           </div>
         ))}

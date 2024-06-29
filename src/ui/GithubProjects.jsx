@@ -1,5 +1,6 @@
 import React from "react";
 import "../Project.css";
+
 export default function githubProjects({ gitHubProjects }) {
   return (
     <main
@@ -7,14 +8,11 @@ export default function githubProjects({ gitHubProjects }) {
       style={{ width: "92%", margin: "auto" }}
     >
       {gitHubProjects.map((project) => (
-        <div
-          className="col-lg-4 col-md-6 col-sm-12"
-          key={project.id}
-        >
+        <div className="col-lg-4 col-md-6 col-sm-12" key={project.id}>
           <div className="card project-cards g-0 border-0">
             <div className="card-header text-light featured-project-title">
               <p className="text-light">{project.cardHeader}</p>
-              {project.cardHeader.length < 31 && <br />}(bootcamp project)
+              {project.cardHeader.length < 31 && <br />}
             </div>
             <div className="card-body card-body-overlay">
               <img className="image" src={project.image} alt={project.title} />
@@ -29,6 +27,9 @@ export default function githubProjects({ gitHubProjects }) {
                   <img src={project.logo} alt="minicat" />
                 </a>
               </div>
+            </div>
+            <div class="project-type bg-black text-secondary py-3 ps-2">
+              (bootcamp project)
             </div>
           </div>
         </div>

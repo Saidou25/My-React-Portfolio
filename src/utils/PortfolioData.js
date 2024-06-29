@@ -28,7 +28,7 @@ export const gitHubProjects = [
   {
     id: 4,
     title: "Team",
-    cardHeader: "Node application s",
+    cardHeader: "Application using Node.js and inquirer.",
     name: "My Team",
     image: team,
     logo: logo,
